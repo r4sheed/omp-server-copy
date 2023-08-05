@@ -1,0 +1,32 @@
+{
+    "source": "C:\\GitHub\\YourServerFolder",
+    "target": "C:\\GitHub\\YourServerFolder-Linux",
+    "url": "https://github.com/openmultiplayer/open.mp/releases/download/v1-RC2/open.mp-linux-x86.tar.gz",
+    "structure": [
+        {
+            "folder": "filterscripts",
+            "includes": [
+                "*.amx"
+            ]
+        },
+        {
+            "folder": "gamemodes",
+            "includes": [
+                "*.amx"
+            ]
+        },
+        {
+            "folder": "plugins",
+            "includes": [
+                "*.so"
+            ]
+        },
+        {
+            "folder": "scriptfiles",
+            "includes": [
+                "ColAndreas\\",
+                "*.ini"
+            ]
+        }
+    ]
+}
